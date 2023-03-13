@@ -1,0 +1,12 @@
+.center-img {
+    text-align: center;
+}
+
+.center-img__img {
+    max-width: 50%;
+}
+
+.circle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+}
