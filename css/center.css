@@ -6,7 +6,25 @@
     max-width: 50%;
 }
 
-.circle {
+.grid-column {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+    margin: 60px; 
+}
+.grid-column--left {
+    display: grid;
+    grid-template-columns: 2fr 3fr;  
+    grid-column-gap: 30px;
+    margin: 100px; 
+}
+
+.grid-column__img {
+    max-width: 80%;
+}
+
+.grid-column--right {
+    display: grid;
+    grid-template-columns: 3fr 2fr;  
+    grid-column-gap: 30px;
+    margin: 100px; 
 }

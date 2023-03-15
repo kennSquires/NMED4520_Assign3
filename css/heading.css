@@ -1,0 +1,62 @@
+h1{
+    font-family: 'Climate Crisis', cursive;
+    color: #036666;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Climate Crisis', cursive;
+    color: #469d89;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 100px;
+}
+
+h3 {
+    font-family: 'Climate Crisis', cursive; 
+    color: #727D71;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0;
+}
+h4 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    color:#036666;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.heading {
+margin-left: 150px;
+margin-right: 20px;
+padding-top: 40px;
+padding-bottom: 0px;
+}
+
+.heading--left {
+    margin: 100px;
+    padding: 0;
+    }
+    
+.paragraph {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 20px;
+     }
+     
+.paragraph--left {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 20px;
+      }
+      
+      .paragraph--left2 {
+        text-align: left;
+        margin: 50px;
+        padding-bottom: 20px;
+          }

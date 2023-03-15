@@ -1,4 +1,6 @@
 @import 'center.css';
+@import 'heading.css';
+@import 'header.css';
 
 *{
     box-sizing: border-box;
@@ -9,7 +11,7 @@ html {
     margin: 0;
     min-height: 100vh;
     font-family: 'EB Garamond', serif;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #D9DCD8;
 }
 
@@ -17,37 +19,11 @@ img {
     max-width: 100%;
 }
 
-h1{
-    font-family: 'Climate Crisis', cursive;
-    color: #036666;
-    font-size: 60px;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Climate Crisis', cursive;
-    color: #469d89;
-    font-size: 30px;
-    text-align: left;
-    padding-top: 100px;
-}
-
-h3 {
-    font-family: 'Climate Crisis', cursive; 
-    color: #727D71;
-    font-size: 20px;
-    text-align: center;
-}
-
-.heading {
-margin-left: 150px;
-margin-right: 20px;
-padding-top: 40px;
-padding-bottom: 0px;
-}
-
-.paragraph {
-   text-align: center;
-   margin-left: 150px;
-   margin-right: 150px;
+@media screen and (max-width: 414px) {
+    h3 {
+        display: none;
+    }
+    .grid-column {
+        grid-template-columns: 1fr;
+    }
 }
